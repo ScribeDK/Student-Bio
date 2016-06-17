@@ -1,29 +1,35 @@
 <!DOCTYPE html>
 <html>
-
 	<head>
 		<title>Student Bio</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
 	</head>
-	
 	<body>
-		<h1>Student Bio</h1>
-		<h2>John Grant Bunner</h2>		
-		<img width="200" height="180" src="img-not-found.png" />
-		<Br>
-		<p>I am a c# programmer</p>
-		<Br>
-		<h2>Contact Info</h2>
+		<header>
+			<h1>Student Bio</h1>
+		</header>
 		
-		<ul>
-			<li>Email: 
-				<a href="http://www.google.com" target="_blank">NotMyEmail@Yahoo.com</a>
-			</li>
-			<li>GitHub: 
-				<a href="https://github.com/ScribeDK/" target="_blank">Scribe</a>
-			</li>
-			<li>Portfolio: 
-				<a href="">Coming Soon</a>
-			</li>
-		</ul>
+		<div class="container">
+		
+			<section id="main-bio">
+				<h2>John Grant Bunner</h2>		
+				<img id="bio-image" width="200" height="180" src="img-not-found.png" alt="Image"/>
+				<p>I am a c# programmer</p>
+			</section>
+			<section id="contact-info">
+				<h2 class="container">Contact Info</h2>
+		
+				<ul>
+					<li>Email: 
+						<a href="http://www.google.com" target="_blank">NotMyEmail@Yahoo.com</a>
+					</li>
+					<li>GitHub: 
+						<a href="https://github.com/ScribeDK/" target="_blank">Scribe</a>
+					</li>
+					<li>Portfolio: 
+						<a href="">Coming Soon</a>
+					</li>
+				</ul>
+			</section>				
 	</body>
 </html>
